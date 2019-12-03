@@ -1,0 +1,17 @@
+.flex-parent {
+  background-color: rgba(35, 69, 97, 0.5);
+  display: -webkit-box;
+  display: -webkit-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.flex-child {
+  background-color: lightgreen;
+  color: honeydew;
+}
+/*# sourceMappingURL=style.css.map */

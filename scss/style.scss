@@ -1,0 +1,25 @@
+@import"./_header.scss";
+@import"./_about.scss";
+
+$colors:(
+    primary:#234561
+);
+@function color($color-name){
+    @return map-get($colors, $color-name);
+}
+
+
+
+
+.flex-parent{
+    background-color: rgba(color(primary), 0.5);
+    display: -webkit-box;
+    display: -webkit-flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.flex-child{
+    background-color: lightgreen;
+    color: honeydew;
+}
