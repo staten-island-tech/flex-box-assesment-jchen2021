@@ -1,7 +1,23 @@
+h1 {
+  text-align: center;
+  color: rgba(35, 69, 97, 0.9);
+  border-color: rgba(35, 69, 97, 0.3);
+  border-style: solid;
+}
+
+html {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .flex-parent {
   background-color: rgba(35, 69, 97, 0.5);
   display: -webkit-box;
-  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
@@ -13,5 +29,6 @@
 .flex-child {
   background-color: lightgreen;
   color: honeydew;
+  border-spacing: 5px;
 }
 /*# sourceMappingURL=style.css.map */
