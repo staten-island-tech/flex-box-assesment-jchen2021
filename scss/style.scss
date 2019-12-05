@@ -12,14 +12,33 @@ html{
 
 
 .flex-parent{
-    background-color: rgba(color(primary), 0.5);
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
+    -ms-flex-pack: distribute;
 }
 
 .flex-child{
-    background-color: lightgreen;
-    color: honeydew;
-    border-spacing: 5px;
+    display: flex;
+    flex-flow: row;
+    width: 200vh;
+
+
+}
+
+#flex-child1{
+    flex-grow: 1;
+}
+#flex-child2{
+    flex-grow: 1;
+
+}
+#flex-child3{
+    flex-grow: 1;
+}
+#flex-child4{
+    flex-grow: 1;
+}
+#flex-child5{
+    flex-grow:1;
 }
