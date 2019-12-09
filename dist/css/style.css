@@ -12,6 +12,7 @@ html {
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background-color: rgba(35, 69, 97, 0.4);
 }
 
 header {
