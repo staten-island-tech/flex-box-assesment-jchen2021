@@ -28,6 +28,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: rgba(35, 69, 97, 0.4);
 }
 
 div {
@@ -67,6 +68,28 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.school-logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.pictures {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
 }
 
 .flex-block {
@@ -127,29 +150,62 @@ section {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+  width: 50vh;
 }
 
 #flex-child2 {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+  width: 50vh;
 }
 
 #flex-child3 {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+  width: 50vh;
 }
 
 #flex-child4 {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+  width: 50vh;
 }
 
 #flex-child5 {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+  width: 50vh;
+}
+
+.text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: rgba(35, 69, 97, 0.7);
+}
+
+#container {
+  width: 50%;
+  background-color: rgba(35, 69, 97, 0.2);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.manga {
+  width: 50rem;
 }
 /*# sourceMappingURL=style.css.map */

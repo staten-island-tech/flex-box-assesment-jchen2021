@@ -15,6 +15,7 @@ header{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    background-color: rgba(color(primary),0.4);
 }
 
 
@@ -36,7 +37,16 @@ section{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    
+}
+.school-logos{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pictures{
+    flex-flow: row;
 }
 
 .flex-block{
@@ -72,17 +82,38 @@ section{
 }
 #flex-child1{
     flex-grow: 1;
+    width:50vh;
 }
 #flex-child2{
     flex-grow: 1;
+    width:50vh;
 
 }
 #flex-child3{
     flex-grow: 1;
+    width:50vh;
 }
 #flex-child4{
     flex-grow: 1;
+    width:50vh;
 }
 #flex-child5{
     flex-grow:1;
+    width:50vh;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(color(primary),0.7);
+}
+#container{
+    width: 50%;
+    background-color: rgba(color(primary),0.2);
+    box-sizing: border-box;
+}
+
+.manga{
+    width:50rem;
 }
