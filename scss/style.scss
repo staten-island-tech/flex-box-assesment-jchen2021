@@ -9,23 +9,67 @@ html{
     box-sizing: border-box;
 }
 
-
-
-.flex-parent{
-    display: flex;
-    flex-direction: row-reverse;
+header{
+    display:flex;
+    flex-direction: column;
     justify-content: space-around;
-    -ms-flex-pack: distribute;
+    align-items: center;
+
 }
 
-.flex-child{
+
+
+div{
+    z-index: -99;
+    width: 15rem;
+    align-items: center;
+}
+
+section{
     display: flex;
-    flex-flow: row;
-    width: 200vh;
-
-
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
+.flex-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.scenes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding:5rem;
+    background-color: antiquewhite;
+    height: 15rem;
+}
+#haikyuu{
+    font-size: 5rem;
+    border-style: solid;
+    border-color: aquamarine;
+    padding:10rem;
+    text-align: center;
+}
+#scene1{
+    width: 20rem;
+}
+#scene2{
+    width:20rem;
+}
+#scene3{
+    width: 20rem;
+}
 #flex-child1{
     flex-grow: 1;
 }
