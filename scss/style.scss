@@ -6,8 +6,7 @@ html{
     font-size: 62.5%;
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-    background-color: rgba(color(primary), 0.4);
+    background-color: rgba(color(primary), 0.2);
 }
 
 header{
@@ -18,29 +17,16 @@ header{
     background-color: rgba(color(primary),0.4);
 }
 
-
-
-div{
-    z-index: -99;
-    width: 15rem;
-    align-items: center;
-}
-
 section{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
-.flex2{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
+
 .school-logos{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
@@ -52,7 +38,7 @@ section{
 .flex-block{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .scenes{
@@ -61,45 +47,46 @@ section{
     justify-content: space-around;
     align-items: center;
     padding:5rem;
-    background-color: antiquewhite;
-    height: 15rem;
+    background-color: rgba(color(secondary), 0.6);
+    height: 20rem;
 }
 #haikyuu{
-    font-size: 5rem;
+    font-size: 2rem;
     border-style: solid;
-    border-color: aquamarine;
-    padding:10rem;
+    border-color: rgba(color(primary),0.5);
+    padding:1rem;
     text-align: center;
+    width:40rem;
 }
 #scene1{
-    width: 20rem;
+    width: 25rem;
 }
 #scene2{
-    width:20rem;
+    width:25rem;
 }
 #scene3{
-    width: 20rem;
+    width: 25rem;
 }
 #flex-child1{
     flex-grow: 1;
-    width:50vh;
+    width:32rem;
 }
 #flex-child2{
     flex-grow: 1;
-    width:50vh;
+    width:32rem;
 
 }
 #flex-child3{
     flex-grow: 1;
-    width:50vh;
+    width:32rem;
 }
 #flex-child4{
     flex-grow: 1;
-    width:50vh;
+    width:32rem;
 }
 #flex-child5{
     flex-grow:1;
-    width:50vh;
+    width:32rem;
 }
 .text{
     display: flex;
