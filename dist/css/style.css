@@ -1,9 +1,10 @@
 h1 {
   text-align: center;
   color: rgba(35, 69, 97, 0.9);
-  border-color: rgba(35, 69, 97, 0.3);
+  border-color: rgba(35, 69, 97, 0.5);
   border-style: solid;
   font-size: 4rem;
+  padding: 1rem;
 }
 
 html {
@@ -95,17 +96,17 @@ section {
       -ms-flex-align: center;
           align-items: center;
   padding: 5rem;
-  background-color: rgba(231, 69, 20, 0.6);
-  height: 20rem;
+  width: 90rem;
+  background-color: rgba(35, 69, 97, 0.5);
 }
 
 #haikyuu {
   font-size: 2rem;
   border-style: solid;
-  border-color: rgba(35, 69, 97, 0.5);
-  padding: 1rem;
+  border-color: rgba(35, 69, 97, 0.6);
+  padding: 3rem;
   text-align: center;
-  width: 40rem;
+  width: 50rem;
 }
 
 #scene1 {
@@ -155,23 +156,13 @@ section {
   width: 32rem;
 }
 
-.text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  background-color: rgba(35, 69, 97, 0.7);
-}
-
+/* .text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(color(primary),0.8);
+} */
 #container {
   width: 50%;
   background-color: rgba(35, 69, 97, 0.2);
@@ -179,7 +170,17 @@ section {
           box-sizing: border-box;
 }
 
-.manga {
-  width: 50rem;
+.text {
+  font-size: 3rem;
+  color: rgba(23, 134, 70, 0.9);
+  padding: 0.5rem;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  font-size: 2.5rem;
+  color: rgba(23, 134, 70, 0.8);
+  padding: 0.5rem;
+  margin-top: 0;
 }
 /*# sourceMappingURL=style.css.map */

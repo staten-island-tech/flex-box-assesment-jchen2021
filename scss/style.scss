@@ -47,16 +47,16 @@ section{
     justify-content: space-around;
     align-items: center;
     padding:5rem;
-    background-color: rgba(color(secondary), 0.6);
-    height: 20rem;
+    width: 90rem;
+    background-color: rgba(color(primary), 0.5);
 }
 #haikyuu{
     font-size: 2rem;
     border-style: solid;
-    border-color: rgba(color(primary),0.5);
-    padding:1rem;
+    border-color: rgba(color(primary),0.6);
+    padding:3rem;
     text-align: center;
-    width:40rem;
+    width:50rem;
 }
 #scene1{
     width: 25rem;
@@ -88,19 +88,28 @@ section{
     flex-grow:1;
     width:32rem;
 }
-.text{
+/* .text{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(color(primary),0.7);
-}
+    background-color: rgba(color(primary),0.8);
+} */
 #container{
     width: 50%;
     background-color: rgba(color(primary),0.2);
     box-sizing: border-box;
 }
 
-.manga{
-    width:50rem;
+.text{
+    font-size: 3rem;
+    color: rgba(color(secondary),0.9);
+    padding: 0.5rem;
+    margin-bottom: 0;
+}
+.subtitle{
+    font-size: 2.5rem;
+    color: rgba(color(secondary),0.8);
+    padding: 0.5rem;
+    margin-top: 0;
 }

@@ -1,6 +1,7 @@
 $colors:(
     primary:#234561,
-    secondary:#e74514
+    secondary:#178646,
+
 );
 @function color($color-name){
     @return map-get($colors, $color-name);
