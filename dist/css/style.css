@@ -4,7 +4,11 @@ h1 {
   border-color: rgba(35, 69, 97, 0.5);
   border-style: solid;
   font-size: 4rem;
-  padding: 1rem;
+  padding: .5rem;
+}
+
+h3 {
+  text-align: center;
 }
 
 html {
@@ -27,7 +31,8 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: rgba(35, 69, 97, 0.4);
+  background-color: #cccccc;
+  background-image: url("/dist/css/img/Natsume.jpg");
 }
 
 section {
@@ -43,6 +48,37 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.anime {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.anime1 {
+  width: 30rem;
+}
+
+.anime2 {
+  width: 30rem;
+}
+
+.anime3 {
+  width: 30rem;
+}
+
+#natsu {
+  z-index: -99;
 }
 
 .school-logos {
@@ -109,15 +145,15 @@ section {
   width: 50rem;
 }
 
-#scene1 {
+.scene1 {
   width: 25rem;
 }
 
-#scene2 {
+.scene2 {
   width: 25rem;
 }
 
-#scene3 {
+.scene3 {
   width: 25rem;
 }
 

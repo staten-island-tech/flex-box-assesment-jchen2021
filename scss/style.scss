@@ -1,6 +1,5 @@
 @import"./_variables.scss";
 @import"./_header.scss";
-@import"./_about.scss";
 
 html{
     font-size: 62.5%;
@@ -14,7 +13,8 @@ header{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(color(primary),0.4);
+    background-color: #cccccc;
+    background-image: url("/dist/css/img/Natsume.jpg");
 }
 
 section{
@@ -24,6 +24,25 @@ section{
     align-items: center;
 }
 
+.anime{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.anime1{
+    width:30rem;
+}
+.anime2{
+    width:30rem;
+}
+
+.anime3{
+    width:30rem;
+}
+#natsu{
+    z-index: -99;
+}
 .school-logos{
     display: flex;
     flex-direction: column;
@@ -58,13 +77,13 @@ section{
     text-align: center;
     width:50rem;
 }
-#scene1{
+.scene1{
     width: 25rem;
 }
-#scene2{
+.scene2{
     width:25rem;
 }
-#scene3{
+.scene3{
     width: 25rem;
 }
 #flex-child1{
@@ -88,6 +107,12 @@ section{
     flex-grow:1;
     width:32rem;
 }
+
+
+
+
+
+
 /* .text{
     display: flex;
     flex-direction: row;
